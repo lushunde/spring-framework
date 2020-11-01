@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="spring-context-support/bin/eclipse"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/testFixtures" kind="src" path="src/testFixtures/java">
+		<attributes>
+			<attribute name="gradle_scope" value="testFixtures"/>
+			<attribute name="gradle_used_by_scope" value="testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.6.3/767a18a1526d13a2667baf65ba2714c949550c23/junit-jupiter-params-5.6.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.6.3/fb4a394249d18d56d6f527b7c547cb400037a016/junit-jupiter-params-5.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.6.3/e59edc94cf4c0dec770e942d6cd1252162f06a8d/junit-jupiter-api-5.6.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.6.3/73ea5e2b7f112616315d3e2325a98e6e93c2813a/junit-jupiter-api-5.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test,testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/3.3.3/b269eba4bd6994b8b201a75698d5b2cfc28c6dc3/mockito-junit-jupiter-3.3.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/3.3.3/1176ce43cf773e11a5a318ff04e57e55f9187347/mockito-junit-jupiter-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/3.3.3/cd917802078ffceaa508aa75af70ef62aed20d22/mockito-core-3.3.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/3.3.3/4878395d4e63173f3825e17e5e0690e8054445f1/mockito-core-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test,testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.10.0/f65aa94ae5ece00cddf068d771705f0897026409/mockk-1.10.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.10.0/a19a1252ed960831e81d7d83473554f76761b319/mockk-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.17.2/f8b4694e0e099e8e9bac297143d3256a862efab5/assertj-core-3.17.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.17.2/b13a7ea14b0e2f2f75ed64e2ce310e65a55694df/assertj-core-3.17.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test,testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.5.1/ceb848aa233aeee6a5b010170b2131949cdcf44c/hsqldb-2.5.1-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.hsqldb/hsqldb/2.5.1/b1f720a63a8756867895cc22dd74b51fb70e90ac/hsqldb-2.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.6.3/e276379850676f048f602fedbbe7d4209bf67610/junit-platform-commons-1.6.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.6.3/7ce526bbb9e6202e8a30140a50bfff644fddd10e/junit-platform-commons-1.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test,testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/f3c15fe970af864390c8d0634c9f16aca1b064a8/apiguardian-api-1.1.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test,testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test,testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.5/c83fb156497e41c9c1131762f86d320d75fe9375/byte-buddy-1.10.5-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.5/d39f2a6c7a3550e03fb12a870e0829b0fa87f036/byte-buddy-1.10.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.5/2c64eeb6c4d0e4bd58b3976f1a44d0007367114d/byte-buddy-agent-1.10.5-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.5/d1c949ee74c3421ffd3d9159c867777ded928448/byte-buddy-agent-1.10.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/96614f514a1031296657bf0dde452dc15e42fcb8/objenesis-2.6-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="testFixtures"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.10.0/f7172e9d00d79f25809b1430cf97c2b980f67bf9/mockk-common-1.10.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.10.0/7d2b40e91c2bb479e73d1f0a7f36dd76f5d3bb22/mockk-common-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.10.0/2528e42ab676ef2f766e8673d1c87630a2bbecf/mockk-dsl-jvm-1.10.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.10.0/1cc423685a1651fd2126cc48e317ca0a63b87807/mockk-dsl-jvm-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.1.6.Final/34637d317a9921ae454f70201929c9460c7ca54d/hibernate-validator-6.1.6.Final-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.1.6.Final/2fee0c38f3a8fae0aeb0f1f042b87270bd6b0cb3/hibernate-validator-6.1.6.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.10.0/d32652f030e7254caa3946286c75d2015f16496c/mockk-dsl-1.10.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.10.0/aa3b68d98fad6c089078c4053dde5e24c896d2f2/mockk-dsl-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/jakarta.validation/jakarta.validation-api/2.0.2/ef429a7f3bc2d2d1784a1135668a857a6aaedf31/jakarta.validation-api-2.0.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/jakarta.validation/jakarta.validation-api/2.0.2/5eacc6522521f7eacb081f95cee1e231648461e7/jakarta.validation-api-2.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/a44f0f22bbd9ccb96952806e73f6cc16ef7d2f67/jboss-logging-3.3.2.Final-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/d5aa53c93626884209c1e82fdf44d2ccdaf8e9c2/classmate-1.3.4-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.6.3/8b2c052d418655fb897ccae5cd94eb006c81608c/junit-jupiter-engine-5.6.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.6.3/234f250d1608684c4436d72214e7530f23cb8a03/junit-jupiter-engine-5.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-assertj/2.6.2/34a0c47a8cd48132d55b781cc1579ee1a869eb1/xmlunit-assertj-2.6.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-assertj/2.6.2/1e80ad1d246aee01d8bad86c33951fff4263512d/xmlunit-assertj-2.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.6.3/fbdd08d99ad1e0c107373299ea6fa3d278566805/junit-platform-launcher-1.6.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.6.3/f55993de89a3b144d3e16fcda42a0687d4bf5629/junit-platform-launcher-1.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.13.3/9b7f420c635c51622d0984a7fc3fd6e312d5ce57/log4j-slf4j-impl-2.13.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.13.3/7cca27a921a18645139cf651c04b83b1a19cfd76/log4j-slf4j-impl-2.13.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.13.3/e9d59a9a974a2a8e4749b996710e9c5a38ea2eba/log4j-core-2.13.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.13.3/4e857439fc4fe974d212adaaaa3b118b8b50e3ec/log4j-core-2.13.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-jul/2.13.3/c745b059340c5bb2741b7fa1016040e8da7c1ef0/log4j-jul-2.13.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-jul/2.13.3/b669b3b98612e352de350c839fc2c992e746dc69/log4j-jul-2.13.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.ehcache/jcache/1.0.1/34a8c103ce8beaee3be3af438509c8075926773e/jcache-1.0.1-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.ehcache/jcache/1.0.1/3a818cba6d97e9767a34b4eb7b940707b9487cc2/jcache-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.4.0/45f83bcf2e286a312f13491b03c2b409d0a02984/ehcache-3.4.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.ehcache/ehcache/3.4.0/cac1f0840af0040a81401dfa55fa31a4ccc17932/ehcache-3.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el/3.0.1-b08/303fcd8c9ce98ccb708a20aaafb2ea1e8ef0b254/javax.el-3.0.1-b08-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el/3.0.1-b08/8fa39d3901fc6ec8c0fff4ad4e48c26c4911c422/javax.el-3.0.1-b08.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.2/f74a1213edad69087c1f8829ca7c68adcce35942/javax.mail-1.6.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.2/935151eb71beff17a2ffac15dd80184a99a0514f/javax.mail-1.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.6.3/9d57c93c2ee2f70175fdc16f15048c4c6228d913/junit-platform-engine-1.6.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.6.3/a926b9bbc7fe67c5795ee1f00cc1b618b313e5ce/junit-platform-engine-1.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.10.0/f7a627af0a36eacaf2462194c2a1bca66ca3b58/mockk-agent-jvm-1.10.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.10.0/9b42a88de1f13e6a11fc512e9147a09c4b4bd3bf/mockk-agent-jvm-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.9/d55329c205327743281825d0d2c8cf163aec2d60/byte-buddy-1.10.9-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.9/2c03f15cd1131692feca93f190ed81412a3de961/byte-buddy-1.10.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.9/3edc1d819ddb7ec6d1088de4b26300cf50fe3015/byte-buddy-agent-1.10.9-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.9/cbbeffa557e6b1b4cbb181b0782436921c523699/byte-buddy-agent-1.10.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.1/36e4b278b98654980a51e36ef60b186a757ed3d7/objenesis-3.1-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.1/48f12deaae83a8dfc3775d830c9fd60ea59bbbca/objenesis-3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.72/fbbf32ddf5a870c4d43d949319d9bab2796406d8/kotlin-reflect-1.3.72-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.72/86613e1a669a701b0c660bfd2af4f82a7ae11fca/kotlin-reflect-1.3.72.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-test/3.3.11.RELEASE/9441f2e1694c4c2f09a9699f93a5f42dcbf675fd/reactor-test-3.3.11.RELEASE-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-test/3.3.11.RELEASE/1dfb09961d70db3ae479465a2929f50269d88b28/reactor-test-3.3.11.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/735efba8bfdacf25716fa1e2e82f57b2837f8300/log4j-api-2.13.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/ec1508160b93d274b1add34419b897bae84c6ca9/log4j-api-2.13.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.6/636af8113e970f20cb670813b21ebd6b15f4976f/ehcache-2.10.6-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.6/38076997b10f5c762a210ea8b9f6099da35ac5f/ehcache-2.10.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/71a1fdefa224da50f1db6306ce609981e20186c9/slf4j-api-1.7.30-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.cache/cache-api/1.1.0/9d6d3bebb224dcc1fbdd37381105153a961085ab/cache-api-1.1.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.cache/cache-api/1.1.0/77bdcff7814076dfa61611b0db88487c515150b6/cache-api-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.10.0/baa1a6388350f473a393512b9f3ca8b386a816d1/mockk-agent-common-1.10.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.10.0/75e868f97405dc8d367d028dac80239266c48e6f/mockk-agent-common-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.10.0/20a7cfc545f8852cadf33e0d1baaddd6d92dc263/mockk-agent-api-1.10.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.10.0/3990d27fd5d5eb3df041bdb0fd31ac7a14e7575b/mockk-agent-api-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.72/28f81264fad20dd20cc692003f4a27d355632073/kotlin-stdlib-1.3.72-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.72/8032138f12c0180bc4e51fe139d4c52b46db6109/kotlin-stdlib-1.3.72.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.11.RELEASE/62e869c8f6a188de7aa1b327cbc90ccb13decd6b/reactor-core-3.3.11.RELEASE-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.11.RELEASE/be56b39f5297487083ed72e7569dd4d968ec21cd/reactor-core-3.3.11.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.6.2/d5002e03c5ecf84d06ce2f2ce714e025b288f327/xmlunit-core-2.6.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.6.2/b0461888cdd8d3975ea8a57df96520409cadcb6c/xmlunit-core-2.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.72/8c35588215bc56f828c189e9edc37ee51672cf5c/kotlin-stdlib-common-1.3.72-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.72/6ca8bee3d88957eaaaef077c41c908c9940492d8/kotlin-stdlib-common-1.3.72.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/e6ffdff8c438d959376c91d94b319457354a84c5/reactive-streams-1.0.3-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.mail/javax.mail-api/1.6.2/d29b882add0b3fefb9c06958da53912176b2daf1/javax.mail-api-1.6.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/javax.mail/javax.mail-api/1.6.2/17a8151bab44f9c94f34c10db70d95ba3c830eda/javax.mail-api-1.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.8.6/a4faacce1f7c10c4917f80bcd09bc10f2a884045/caffeine-2.8.6-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.8.6/4a5b7001467bac95e593322f800d353280a75eff/caffeine-2.8.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.2/c22b720ab9a92367424cda3d628fea758dd7e4cf/quartz-2.3.2-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.3.2/18a6d6b5a40b77bd060b34cb9f2acadc4bae7c8a/quartz-2.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.codehaus.fabric3.api/commonj/1.1.0/edd68ec763a593f506a0e3b011ef55f1bba08490/commonj-1.1.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.codehaus.fabric3.api/commonj/1.1.0/11e7a4fbf6c257e221df0aadf9851d8992fe60ff/commonj-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.30/c762831bebf62255a0c0764a5aaee76e39399c41/freemarker-2.3.30-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.30/86d70d335c7821178f62b554aa3a4bc538a94f1a/freemarker-2.3.30.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.7.0/357a4353ffb625e316317769dc889a0d4ac6ce88/checker-qual-3.7.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.7.0/b35f5bd883a3f9cd1af39fa5a64ba12c9c5f0440/checker-qual-3.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.4.0/3921a2ff59cbc7ed711b7925109d1f54ec3b8a70/error_prone_annotations-2.4.0-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.4.0/32ecccc595e4e4d813a80ee9e3ab5813d65874eb/error_prone_annotations-2.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP-java7/2.4.13/fc995c9e7945c5d9efa11fdbb5cbf10606409cd5/HikariCP-java7-2.4.13-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP-java7/2.4.13/3e441eddedb374d4de8e3abbb0c90997f51cc97b/HikariCP-java7-2.4.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.4/c3bebeb3a803901e8bb0707cb85abe22232fee9a/c3p0-0.9.5.4-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.mchange/c3p0/0.9.5.4/a21a1d37ae0b59efce99671544f51c34ed1e8def/c3p0-0.9.5.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.15/dbcfc59448950a4899d9ad88f0a916d5f1e420a0/mchange-commons-java-0.2.15-sources.jar" kind="lib" path="C:/Users/bellus/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.15/6ef5abe5f1b94ac45b7b5bad42d871da4fda6bbc/mchange-commons-java-0.2.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/AllWorkspace/GitHub/spring-framework/spring-core/build/libs/spring-cglib-repack-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/AllWorkspace/GitHub/spring-framework/spring-core/build/libs/spring-objenesis-repack-3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test,testFixtures"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/spring-context"/>
+	<classpathentry kind="src" path="/spring-aop"/>
+	<classpathentry kind="src" path="/spring-beans"/>
+	<classpathentry kind="src" path="/spring-expression"/>
+	<classpathentry kind="src" path="/spring-core"/>
+	<classpathentry kind="src" path="/spring-jcl"/>
+	<classpathentry kind="src" path="/spring-tx"/>
+	<classpathentry kind="src" path="/spring-jdbc"/>
+</classpath>
